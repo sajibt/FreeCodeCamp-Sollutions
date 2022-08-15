@@ -162,3 +162,11 @@ function copyMachine(arr, num) {
 }
 
 console.log(copyMachine([true, false, true], 2));
+
+// Combine Arrays with the Spread Operator
+
+let noa = ["sage", "rosemary", "parsley", "thyme"];
+
+noa = ["basil", "cilantro", ...noa, "coriander"];
+noa.push("4");
+console.log(noa);
